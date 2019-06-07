@@ -1,0 +1,33 @@
+package: .
+import:
+- package: 9fans.net/go
+  subpackages:
+  - acme
+- package: github.com/cosiner/argv
+- package: github.com/keegancsmith/rpc
+- package: github.com/mattn/go-colorable
+- package: github.com/mattn/go-isatty
+- package: github.com/peterh/liner
+- package: github.com/sirupsen/logrus
+- package: github.com/spf13/cobra
+  subpackages:
+  - doc
+- package: golang.org/x/arch
+  subpackages:
+  - x86/x86asm
+- package: golang.org/x/net
+  subpackages:
+  - context/ctxhttp
+  - html
+  - html/atom
+  - websocket
+- package: golang.org/x/sync
+  subpackages:
+  - errgroup
+- package: golang.org/x/sys
+  subpackages:
+  - unix
+  - windows
+testImport:
+- package: github.com/pkg/profile
+- package: gopkg.in/check.v1

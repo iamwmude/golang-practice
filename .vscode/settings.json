@@ -1,0 +1,7 @@
+{
+    "go.gopath": "${workspaceFolder}",
+    "editor.formatOnSave": true,
+    "terminal.integrated.env.osx": {
+        "GOPATH": "${workspaceFolder}"
+    }
+}
